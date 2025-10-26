@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FYDO — Comunidad de oficios</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0c64d54.js" crossorigin="anonymous"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../CSS/stylo.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <a href="index.html" class="logo-wrap" style="display:flex; align-items:center; gap:12px;">
+        <img src="f.png" alt="FYDO" class="logo">
+        <div style="display:flex; flex-direction:column;">
+          <strong style="color:var(--bg-dark)">FYDO</strong>
+          <small class="text-muted">Comunidad & Oficios</small>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="presentacion.html">Qué es FYDO</a>
+        <a href="trabajadores.html">Trabajadores</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="instituciones.html">Instituciones</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <img src="f.png" alt="FYDO logo" class="logo-small" />
+      <h1>Comunidad de oficios. Tecnología con propósito.</h1>
+      <p class="lead">Visibilizamos el talento práctico — carpinteros, gasfiteros, costureras — y los conectamos con clientes, comercios e instituciones.</p>
+
+      <div class="hero-ctas">
+        <a href="presentacion.html" class="btn btn-primary">Ver dossier</a>
+        <button class="btn btn-video" id="playIndicador"><i class="fas fa-play"></i> Ver video institucional</button>
+      </div>
+
+      <div class="hero-features" aria-hidden="true">
+        <div class="feat"><i class="fas fa-id-badge"></i><span>Perfiles verificados</span></div>
+        <div class="feat"><i class="fas fa-map-marker-alt"></i><span>Mapa de oportunidades</span></div>
+        <div class="feat"><i class="fas fa-medal"></i><span>Reputación & medallas</span></div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- Modal -->
+    <div id="videoModal" class="modal" aria-hidden="true">
+      <div class="modal-body">
+        <button class="modal-close modal-close-top">&times;</button>
+        <div class="video-wrapper">
+          <video controls>
+            <source src="FYDO__Futuro_para_los_Oficios.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">¿Qué hace FYDO?</h2>
+      <p class="lead-muted">Una red social laboral + herramientas para transformar trabajo informal en reputación, oportunidades y formalización.</p>
+
+      <div class="features">
+        <div class="feature card">
+          <i class="fas fa-user-plus"></i>
+          <h3>Perfiles simples</h3>
+          <p>Registro con DNI / celular + CV automático descargable.</p>
+        </div>
+        <div class="feature card">
+          <i class="fas fa-camera"></i>
+          <h3>Portafolio visual</h3>
+          <p>Sube fotos y videos de tus trabajos para ganar confianza y clientes.</p>
+        </div>
+        <div class="feature card">
+          <i class="fas fa-star"></i>
+          <h3>Reseñas reales</h3>
+          <p>Calificaciones y comentarios que aumentan tu visibilidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSISTEMA -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Ecosistema FYDO</h2>
+
+      <div class="ecosystem-grid">
+        <div class="eco-card">
+          <i class="fas fa-id-card"></i>
+          <h3>Perfil digital inteligente</h3>
+          <p>CV automático, historia laboral y métricas de confianza.</p>
+        </div>
+
+        <div class="eco-card">
+          <i class="fas fa-comments"></i>
+          <h3>Mensajería segura</h3>
+          <p>Coordinación y cotizaciones sin exponer datos personales.</p>
+        </div>
+
+        <div class="eco-card">
+          <i class="fas fa-map"></i>
+          <h3>Mapa y comercios</h3>
+          <p>Ofertas locales, comercios aliados y ferias de empleo.</p>
+        </div>
+
+        <div class="eco-card">
+          <i class="fas fa-handshake"></i>
+          <h3>Convenios</h3>
+          <p>SENATI, SENCICO y municipalidades para certificación y formación.</p>
+        </div>
+
+        <div class="eco-card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Capacitación</h3>
+          <p>Microcursos y talleres para mejorar habilidades técnicas.</p>
+        </div>
+
+        <div class="eco-card">
+          <i class="fas fa-users"></i>
+          <h3>Comunidad</h3>
+          <p>Muro de historias, tips y soporte mutuo entre oficios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Impacto esperado</h2>
+      <div class="impact-grid">
+        <div class="impact-item card"><h3>Visibilidad</h3><p>Miles de trabajadores con identidad laboral</p></div>
+        <div class="impact-item card"><h3>Ingresos</h3><p>Aumento de oportunidades y trabajo formal</p></div>
+        <div class="impact-item card"><h3>Comercios</h3><p>Sinergias con negocios locales</p></div>
+        <div class="impact-item card"><h3>Instituciones</h3><p>Datos para políticas públicas</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-strip">
+    <div class="container">
+      <h2>FYDO: donde los oficios encuentran futuro</h2>
+      <p class="lead-muted">Tu experiencia es tu título. Tu trabajo habla por ti.</p>
+      <div style="margin-top:12px">
+        <a class="btn btn-primary" href="trabajadores.html">Crear perfil</a>
+        <a class="btn btn-outline" href="contacto.html">Contactar equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 FYDO — Transformando la confianza en oportunidades.</p>
+      <div style="margin-top:8px">
+        <a href="presentacion.html" class="text-muted">Resumen</a> ·
+        <a href="contacto.html" class="text-muted">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT FUNCIONAL DEL VIDEO -->
+  <script>
+    // Referencias
+    const playBtn = document.getElementById('playIndicador');
+    const modal = document.getElementById('videoModal');
+    const closeBtn = modal.querySelector('.modal-close');
+    const video = modal.querySelector('video');
+
+    // Abrir modal
+    playBtn.addEventListener('click', () => {
+      modal.style.display = 'flex';
+      modal.setAttribute('aria-hidden', 'false');
+      video.currentTime = 0; // reinicia video al abrir
+      video.play();
+    });
+
+    // Cerrar modal
+    closeBtn.addEventListener('click', () => {
+      video.pause();
+      video.currentTime = 0;
+      modal.style.display = 'none';
+      modal.setAttribute('aria-hidden', 'true');
+    });
+
+    // Cerrar al hacer clic fuera del video
+    modal.addEventListener('click', (e) => {
+      if(e.target === modal) {
+        video.pause();
+        video.currentTime = 0;
+        modal.style.display = 'none';
+        modal.setAttribute('aria-hidden', 'true');
+      }
+    });
+  </script>
+</body>
+</html>

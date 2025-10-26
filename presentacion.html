@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FYDO — Propuesta</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0c64d54.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/stylo.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <a href="index.html" class="logo-wrap" style="display:flex; align-items:center; gap:12px;">
+        <img src="f.png" alt="FYDO" class="logo">
+        <div style="display:flex; flex-direction:column;">
+          <strong style="color:var(--bg-dark)">FYDO</strong>
+          <small class="text-muted">Comunidad & Oficios</small>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="presentacion.html">Qué es FYDO</a>
+        <a href="trabajadores.html">Trabajadores</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="instituciones.html">Instituciones</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main class="content-page container">
+    <section style="padding:28px; background:var(--white); border-radius:10px; box-shadow:0 8px 30px rgba(10,37,64,0.04);">
+      <h1 style="color:var(--verde-fydo)">FYDO — Plataforma de identidad y reputación laboral</h1>
+      <p class="lead-muted">Tecnología con propósito: visibilizar el talento real.</p>
+
+      <div style="display:grid; gap:18px; margin-top:18px">
+        <div class="card"><h3 class="kicker">Problema</h3><p class="text-muted">Muchos trabajadores de oficios carecen de identidad digital, acceso a clientes confiables y oportunidades de capacitación.</p></div>
+
+        <div class="card"><h3 class="kicker">Solución</h3><p class="text-muted">Red social laboral + herramientas para crear perfiles verificados, portafolios, reputación y mapas de oportunidades.</p></div>
+
+        <div class="card"><h3 class="kicker">Modelo</h3><p class="text-muted">Gratuito para usuarios — sostenibilidad por publicidad ética, convenios e ingresos empresariales.</p></div>
+      </div>
+    </section>
+
+    <section style="margin-top:22px;">
+      <h2 class="section-title">Componentes principales</h2>
+      <div class="ecosystem-grid">
+        <div class="eco-card"><i class="fas fa-id-card"></i><h3>Perfil digital</h3><p>CV automático, tarifas, ubicación y portafolio.</p></div>
+        <div class="eco-card"><i class="fas fa-camera"></i><h3>Portafolio</h3><p>Fotos, videos y storytelling de trabajos.</p></div>
+        <div class="eco-card"><i class="fas fa-comments"></i><h3>Mensajería</h3><p>Comunicación segura y trazable.</p></div>
+        <div class="eco-card"><i class="fas fa-map"></i><h3>Mapa</h3><p>Oportunidades geolocalizadas y comercios aliados.</p></div>
+        <div class="eco-card"><i class="fas fa-graduation-cap"></i><h3>Capacitación</h3><p>Microcursos y convenios con instituciones técnicas.</p></div>
+        <div class="eco-card"><i class="fas fa-star"></i><h3>Reputación</h3><p>Reseñas, medallas y métricas de desempeño.</p></div>
+      </div>
+    </section>
+
+    <section style="margin-top:22px;">
+      <h2 class="section-title">Impacto & Escala</h2>
+      <div class="impact-grid">
+        <div class="impact-item card"><h3>Social</h3><p class="text-muted">Visibilizar trabajadores, reducir informalidad y crear oportunidades.</p></div>
+        <div class="impact-item card"><h3>Económico</h3><p class="text-muted">Aumentar ingresos y dinamizar comercios locales.</p></div>
+        <div class="impact-item card"><h3>Institucional</h3><p class="text-muted">Facilitar programas de formación y datos para política pública.</p></div>
+      </div>
+      <p style="margin-top:12px" class="text-muted">Pilotaje: Lima & Cusco → Integración municipal → Expansión nacional.</p>
+    </section>
+
+    <section style="margin-top:22px; display:flex; gap:12px; align-items:center; justify-content:flex-start;">
+      <a class="btn btn-primary" href="contacto.html">Contactar alianza</a>
+      <a class="btn btn-outline" href="index.html">Volver al inicio</a>
+    </section>
+  </main>
+
+  <footer class="site-footer" style="margin-top:28px">
+    <div class="container">
+      <p>© 2025 FYDO</p>
+    </div>
+  </footer>
+
+  <script src="JS.js"></script>
+</body>
+</html>
